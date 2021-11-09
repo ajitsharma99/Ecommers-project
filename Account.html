@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Account </title>
+
+</head>
+
+<body>
+
+    <!-- Headin section -->
+
+    <div class="container">
+
+        <div class="nav-bar">
+            <div class="logo">
+
+                <a href="index.html"> <img src="img/logo.png" width="150px"> </a>
+            </div>
+            <nav>
+                <ul id="menu-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="Account.html">Account</a></li>
+                </ul>
+            </nav>
+
+            <a href="card.html"> <img src="img/cart.png" width="30px" height="30px"></a>
+
+            <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    <!-- ----------  Account- page ---------- -->
+
+    <div class="account-page">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/image1.png">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+
+                        <div class="form-btn">
+
+                            <span> Login </span>
+                            <span> Registration </span>
+
+                            <!-- <hr id="indicator"> -->
+                        </div>
+
+
+                        <form id="loginForm">
+                            <input type="text" placeholder="User Name">
+                            <input type="password" placeholder="password">
+                            <button type="submit" class="btn"> Login </button>
+                            <a href="#">Forgot password</a>
+                        </form>
+
+
+                        <form id="regForm">
+                            <input type="text" placeholder="User Name">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="password">
+                            <br>
+                            <button type="submit" class="btn">Regester</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---footer section ----- -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="footer-col-1">
+                    <h3>Download our Apps </h3>
+                    <p>Download apps for Android & Mobile Vertion.</p>
+                    <div class="app-logo">
+                        <img src="img/play-store.png">
+                        <img src="img/app-store.png">
+                    </div>
+                </div>
+
+
+                <div class="footer-col-2">
+                    <img src="img/logo-white.png">
+                    <p>Our purpose is to sustanabily Make the pleasure and Benefits of Sports accessible to the
+                        many.
+                    </p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Usefull Links </h3>
+                    <ul>
+                        <li> <a href="#">Coupons</a></li>
+                        <li><a href="">Blog post</a> </li>
+                        <li><a href="">Return Policy</a></li>
+                        <li><a href="">Join Affiliate</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4" id="contact">
+                    <h3>Follow Us </h3>
+                    <ul>
+                        <li> <a href="#">Facebook</a></li>
+                        <li> <a href="#">Tweter</a></li>
+                        <li> <a href="#">Instagram</a></li>
+                        <li> <a href="#">LinkdIn</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr>
+            <p class="copyright"> copy right 2021 ajit sharma </p>
+        </div>
+    </div>
+
+    <script src="in.js"></script>
+</body>
+
+</html>
